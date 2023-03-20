@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A458FBF829C87D450058C7EC /* AppData in Frameworks */ = {isa = PBXBuildFile; productRef = A458FBF729C87D450058C7EC /* AppData */; };
+		A458FBFA29C87D450058C7EC /* AppNavigation in Frameworks */ = {isa = PBXBuildFile; productRef = A458FBF929C87D450058C7EC /* AppNavigation */; };
+		A458FBFC29C87D450058C7EC /* Chat in Frameworks */ = {isa = PBXBuildFile; productRef = A458FBFB29C87D450058C7EC /* Chat */; };
+		A458FBFE29C87D450058C7EC /* Common in Frameworks */ = {isa = PBXBuildFile; productRef = A458FBFD29C87D450058C7EC /* Common */; };
+		A458FC0029C87D450058C7EC /* Contact in Frameworks */ = {isa = PBXBuildFile; productRef = A458FBFF29C87D450058C7EC /* Contact */; };
+		A458FC0229C87D450058C7EC /* DI in Frameworks */ = {isa = PBXBuildFile; productRef = A458FC0129C87D450058C7EC /* DI */; };
+		A458FC0429C87D450058C7EC /* Domain in Frameworks */ = {isa = PBXBuildFile; productRef = A458FC0329C87D450058C7EC /* Domain */; };
+		A458FC0629C87D450058C7EC /* FireStorage in Frameworks */ = {isa = PBXBuildFile; productRef = A458FC0529C87D450058C7EC /* FireStorage */; };
+		A458FC0829C87D450058C7EC /* Message in Frameworks */ = {isa = PBXBuildFile; productRef = A458FC0729C87D450058C7EC /* Message */; };
+		A458FC0A29C87D450058C7EC /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = A458FC0929C87D450058C7EC /* Networking */; };
+		A458FC0C29C87D450058C7EC /* SingIn in Frameworks */ = {isa = PBXBuildFile; productRef = A458FC0B29C87D450058C7EC /* SingIn */; };
+		A458FC0E29C87D450058C7EC /* SingUP in Frameworks */ = {isa = PBXBuildFile; productRef = A458FC0D29C87D450058C7EC /* SingUP */; };
+		A458FC1029C87D450058C7EC /* Splash in Frameworks */ = {isa = PBXBuildFile; productRef = A458FC0F29C87D450058C7EC /* Splash */; };
+		A458FC1229C87D450058C7EC /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = A458FC1129C87D450058C7EC /* Storage */; };
 		A476A93229C47526001E19DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A476A93129C47526001E19DB /* AppDelegate.swift */; };
 		A476A93429C47526001E19DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A476A93329C47526001E19DB /* SceneDelegate.swift */; };
 		A476A93629C47526001E19DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A476A93529C47526001E19DB /* ViewController.swift */; };
@@ -47,6 +61,20 @@
 		A476A94E29C47526001E19DB /* iChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A476A95229C47526001E19DB /* iChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iChatUITests.swift; sourceTree = "<group>"; };
 		A476A95429C47526001E19DB /* iChatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iChatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A49FA23129C87A85005A1E5E /* DI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = DI; sourceTree = "<group>"; };
+		A49FA23229C87A9E005A1E5E /* AppNavigation */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = AppNavigation; sourceTree = "<group>"; };
+		A49FA23329C87B16005A1E5E /* Storage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Storage; sourceTree = "<group>"; };
+		A49FA23429C87B47005A1E5E /* Networking */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Networking; sourceTree = "<group>"; };
+		A49FA23529C87B6D005A1E5E /* FireStorage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = FireStorage; sourceTree = "<group>"; };
+		A49FA23629C87B7F005A1E5E /* Domain */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Domain; sourceTree = "<group>"; };
+		A49FA23729C87B95005A1E5E /* Common */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Common; sourceTree = "<group>"; };
+		A49FA23829C87BB3005A1E5E /* AppData */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = AppData; sourceTree = "<group>"; };
+		A49FA23929C87C17005A1E5E /* Splash */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Splash; sourceTree = "<group>"; };
+		A49FA23A29C87C35005A1E5E /* SingUP */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = SingUP; sourceTree = "<group>"; };
+		A49FA23B29C87C4D005A1E5E /* SingIn */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = SingIn; sourceTree = "<group>"; };
+		A49FA23C29C87C72005A1E5E /* Message */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Message; sourceTree = "<group>"; };
+		A49FA23D29C87C8C005A1E5E /* Contact */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Contact; sourceTree = "<group>"; };
+		A49FA23E29C87C9F005A1E5E /* Chat */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Chat; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +82,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A458FC1029C87D450058C7EC /* Splash in Frameworks */,
+				A458FC0029C87D450058C7EC /* Contact in Frameworks */,
+				A458FC1229C87D450058C7EC /* Storage in Frameworks */,
+				A458FC0429C87D450058C7EC /* Domain in Frameworks */,
+				A458FC0C29C87D450058C7EC /* SingIn in Frameworks */,
+				A458FBFA29C87D450058C7EC /* AppNavigation in Frameworks */,
+				A458FBFC29C87D450058C7EC /* Chat in Frameworks */,
+				A458FBF829C87D450058C7EC /* AppData in Frameworks */,
+				A458FBFE29C87D450058C7EC /* Common in Frameworks */,
+				A458FC0829C87D450058C7EC /* Message in Frameworks */,
+				A458FC0E29C87D450058C7EC /* SingUP in Frameworks */,
+				A458FC0629C87D450058C7EC /* FireStorage in Frameworks */,
+				A458FC0A29C87D450058C7EC /* Networking in Frameworks */,
+				A458FC0229C87D450058C7EC /* DI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +116,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A458FBF629C87D450058C7EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A476A92529C47526001E19DB = {
 			isa = PBXGroup;
 			children = (
+				A49FA23029C87A66005A1E5E /* Core */,
+				A49FA22F29C87A41005A1E5E /* Features */,
+				A49FA22E29C87A39005A1E5E /* Main */,
 				A476A93029C47526001E19DB /* iChat */,
 				A476A94729C47526001E19DB /* iChatTests */,
 				A476A95129C47526001E19DB /* iChatUITests */,
 				A476A92F29C47526001E19DB /* Products */,
+				A458FBF629C87D450058C7EC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,6 +177,41 @@
 			path = iChatUITests;
 			sourceTree = "<group>";
 		};
+		A49FA22E29C87A39005A1E5E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A49FA23229C87A9E005A1E5E /* AppNavigation */,
+				A49FA23129C87A85005A1E5E /* DI */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		A49FA22F29C87A41005A1E5E /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				A49FA23E29C87C9F005A1E5E /* Chat */,
+				A49FA23D29C87C8C005A1E5E /* Contact */,
+				A49FA23C29C87C72005A1E5E /* Message */,
+				A49FA23B29C87C4D005A1E5E /* SingIn */,
+				A49FA23A29C87C35005A1E5E /* SingUP */,
+				A49FA23929C87C17005A1E5E /* Splash */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		A49FA23029C87A66005A1E5E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A49FA23829C87BB3005A1E5E /* AppData */,
+				A49FA23729C87B95005A1E5E /* Common */,
+				A49FA23629C87B7F005A1E5E /* Domain */,
+				A49FA23529C87B6D005A1E5E /* FireStorage */,
+				A49FA23429C87B47005A1E5E /* Networking */,
+				A49FA23329C87B16005A1E5E /* Storage */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,6 +228,22 @@
 			dependencies = (
 			);
 			name = iChat;
+			packageProductDependencies = (
+				A458FBF729C87D450058C7EC /* AppData */,
+				A458FBF929C87D450058C7EC /* AppNavigation */,
+				A458FBFB29C87D450058C7EC /* Chat */,
+				A458FBFD29C87D450058C7EC /* Common */,
+				A458FBFF29C87D450058C7EC /* Contact */,
+				A458FC0129C87D450058C7EC /* DI */,
+				A458FC0329C87D450058C7EC /* Domain */,
+				A458FC0529C87D450058C7EC /* FireStorage */,
+				A458FC0729C87D450058C7EC /* Message */,
+				A458FC0929C87D450058C7EC /* Networking */,
+				A458FC0B29C87D450058C7EC /* SingIn */,
+				A458FC0D29C87D450058C7EC /* SingUP */,
+				A458FC0F29C87D450058C7EC /* Splash */,
+				A458FC1129C87D450058C7EC /* Storage */,
+			);
 			productName = iChat;
 			productReference = A476A92E29C47526001E19DB /* iChat.app */;
 			productType = "com.apple.product-type.application";
@@ -582,6 +686,65 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A458FBF729C87D450058C7EC /* AppData */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AppData;
+		};
+		A458FBF929C87D450058C7EC /* AppNavigation */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AppNavigation;
+		};
+		A458FBFB29C87D450058C7EC /* Chat */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Chat;
+		};
+		A458FBFD29C87D450058C7EC /* Common */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Common;
+		};
+		A458FBFF29C87D450058C7EC /* Contact */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Contact;
+		};
+		A458FC0129C87D450058C7EC /* DI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DI;
+		};
+		A458FC0329C87D450058C7EC /* Domain */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Domain;
+		};
+		A458FC0529C87D450058C7EC /* FireStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FireStorage;
+		};
+		A458FC0729C87D450058C7EC /* Message */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Message;
+		};
+		A458FC0929C87D450058C7EC /* Networking */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Networking;
+		};
+		A458FC0B29C87D450058C7EC /* SingIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SingIn;
+		};
+		A458FC0D29C87D450058C7EC /* SingUP */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SingUP;
+		};
+		A458FC0F29C87D450058C7EC /* Splash */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Splash;
+		};
+		A458FC1129C87D450058C7EC /* Storage */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Storage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A476A92629C47526001E19DB /* Project object */;
 }
