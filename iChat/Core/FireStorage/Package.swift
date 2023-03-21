@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "FireStorage",
-    platforms: [.iOS(.v15)],
+    platforms: [.iOS(.v14)],
     products: [
         .library(
             name: "FireStorage",

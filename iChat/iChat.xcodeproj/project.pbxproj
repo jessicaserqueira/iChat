@@ -9,17 +9,13 @@
 /* Begin PBXBuildFile section */
 		A458FBF829C87D450058C7EC /* AppData in Frameworks */ = {isa = PBXBuildFile; productRef = A458FBF729C87D450058C7EC /* AppData */; };
 		A458FBFA29C87D450058C7EC /* AppNavigation in Frameworks */ = {isa = PBXBuildFile; productRef = A458FBF929C87D450058C7EC /* AppNavigation */; };
-		A458FBFC29C87D450058C7EC /* Chat in Frameworks */ = {isa = PBXBuildFile; productRef = A458FBFB29C87D450058C7EC /* Chat */; };
 		A458FBFE29C87D450058C7EC /* Common in Frameworks */ = {isa = PBXBuildFile; productRef = A458FBFD29C87D450058C7EC /* Common */; };
-		A458FC0029C87D450058C7EC /* Contact in Frameworks */ = {isa = PBXBuildFile; productRef = A458FBFF29C87D450058C7EC /* Contact */; };
 		A458FC0229C87D450058C7EC /* DI in Frameworks */ = {isa = PBXBuildFile; productRef = A458FC0129C87D450058C7EC /* DI */; };
 		A458FC0429C87D450058C7EC /* Domain in Frameworks */ = {isa = PBXBuildFile; productRef = A458FC0329C87D450058C7EC /* Domain */; };
 		A458FC0629C87D450058C7EC /* FireStorage in Frameworks */ = {isa = PBXBuildFile; productRef = A458FC0529C87D450058C7EC /* FireStorage */; };
-		A458FC0829C87D450058C7EC /* Message in Frameworks */ = {isa = PBXBuildFile; productRef = A458FC0729C87D450058C7EC /* Message */; };
 		A458FC0A29C87D450058C7EC /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = A458FC0929C87D450058C7EC /* Networking */; };
 		A458FC0C29C87D450058C7EC /* SingIn in Frameworks */ = {isa = PBXBuildFile; productRef = A458FC0B29C87D450058C7EC /* SingIn */; };
 		A458FC0E29C87D450058C7EC /* SingUP in Frameworks */ = {isa = PBXBuildFile; productRef = A458FC0D29C87D450058C7EC /* SingUP */; };
-		A458FC1029C87D450058C7EC /* Splash in Frameworks */ = {isa = PBXBuildFile; productRef = A458FC0F29C87D450058C7EC /* Splash */; };
 		A458FC1229C87D450058C7EC /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = A458FC1129C87D450058C7EC /* Storage */; };
 		A476A93229C47526001E19DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A476A93129C47526001E19DB /* AppDelegate.swift */; };
 		A476A93429C47526001E19DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A476A93329C47526001E19DB /* SceneDelegate.swift */; };
@@ -82,16 +78,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A458FC1029C87D450058C7EC /* Splash in Frameworks */,
-				A458FC0029C87D450058C7EC /* Contact in Frameworks */,
 				A458FC1229C87D450058C7EC /* Storage in Frameworks */,
 				A458FC0429C87D450058C7EC /* Domain in Frameworks */,
 				A458FC0C29C87D450058C7EC /* SingIn in Frameworks */,
 				A458FBFA29C87D450058C7EC /* AppNavigation in Frameworks */,
-				A458FBFC29C87D450058C7EC /* Chat in Frameworks */,
 				A458FBF829C87D450058C7EC /* AppData in Frameworks */,
 				A458FBFE29C87D450058C7EC /* Common in Frameworks */,
-				A458FC0829C87D450058C7EC /* Message in Frameworks */,
 				A458FC0E29C87D450058C7EC /* SingUP in Frameworks */,
 				A458FC0629C87D450058C7EC /* FireStorage in Frameworks */,
 				A458FC0A29C87D450058C7EC /* Networking in Frameworks */,
@@ -231,17 +223,13 @@
 			packageProductDependencies = (
 				A458FBF729C87D450058C7EC /* AppData */,
 				A458FBF929C87D450058C7EC /* AppNavigation */,
-				A458FBFB29C87D450058C7EC /* Chat */,
 				A458FBFD29C87D450058C7EC /* Common */,
-				A458FBFF29C87D450058C7EC /* Contact */,
 				A458FC0129C87D450058C7EC /* DI */,
 				A458FC0329C87D450058C7EC /* Domain */,
 				A458FC0529C87D450058C7EC /* FireStorage */,
-				A458FC0729C87D450058C7EC /* Message */,
 				A458FC0929C87D450058C7EC /* Networking */,
 				A458FC0B29C87D450058C7EC /* SingIn */,
 				A458FC0D29C87D450058C7EC /* SingUP */,
-				A458FC0F29C87D450058C7EC /* Splash */,
 				A458FC1129C87D450058C7EC /* Storage */,
 			);
 			productName = iChat;
@@ -696,17 +684,9 @@
 			isa = XCSwiftPackageProductDependency;
 			productName = AppNavigation;
 		};
-		A458FBFB29C87D450058C7EC /* Chat */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = Chat;
-		};
 		A458FBFD29C87D450058C7EC /* Common */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Common;
-		};
-		A458FBFF29C87D450058C7EC /* Contact */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = Contact;
 		};
 		A458FC0129C87D450058C7EC /* DI */ = {
 			isa = XCSwiftPackageProductDependency;
@@ -720,10 +700,6 @@
 			isa = XCSwiftPackageProductDependency;
 			productName = FireStorage;
 		};
-		A458FC0729C87D450058C7EC /* Message */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = Message;
-		};
 		A458FC0929C87D450058C7EC /* Networking */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Networking;
@@ -735,10 +711,6 @@
 		A458FC0D29C87D450058C7EC /* SingUP */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = SingUP;
-		};
-		A458FC0F29C87D450058C7EC /* Splash */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = Splash;
 		};
 		A458FC1129C87D450058C7EC /* Storage */ = {
 			isa = XCSwiftPackageProductDependency;
